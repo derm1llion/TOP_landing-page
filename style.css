@@ -10,6 +10,7 @@
     flex-direction: column;
     height: 90vh;
     padding: 20px 80px 0px 160px;
+    overflow: hidden;
 }
 
 .hero-header {
@@ -126,4 +127,35 @@
     margin-top: 4px;
     font-size: 18px;
     color: rgb(92, 91, 91);
+}
+
+
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 112px;
+    padding-bottom: 88px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 62%;
+}
+
+.quote-context {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: end;
 }
