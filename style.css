@@ -159,3 +159,40 @@
     color: #1f2937;
     text-align: end;
 }
+
+
+.call-banner {
+    padding-top: 88px;
+    padding-bottom: 88px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-banner_wrapper {
+    background-color: #3882f6;
+    width: 70%;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+    border-radius: 8px;
+}
+
+.call-banner_slogan {
+    color: #f9faf8;
+}
+
+.main-slogan {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.sub-slogan {
+    font-size: 16px;
+}
+
+.call-banner_sign-up {
+    border: 2px solid #f9faf8; 
+}
