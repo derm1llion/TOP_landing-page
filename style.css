@@ -196,3 +196,16 @@
 .call-banner_sign-up {
     border: 2px solid #f9faf8; 
 }
+
+
+.footer {
+    padding-top: 44px;
+    padding-bottom: 44px;
+    text-align: center;
+    background-color: #1f2937;
+}
+
+.footer-description {
+    color: #f9faf8;
+    font-size: 18px;
+}
